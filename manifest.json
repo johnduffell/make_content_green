@@ -1,0 +1,13 @@
+{
+  "name": "Guardian Content Green",
+  "description": "Make the content green",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://www.theguardian.com/*"],
+      //"css": ["mystyles.css"],
+      "js": ["background.js"]
+    }
+  ],
+  "manifest_version": 2
+}
